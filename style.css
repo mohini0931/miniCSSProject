@@ -1,0 +1,92 @@
+/* 1 em  = 16px
+em tooks at a look at parent element and multiplies it.
+rem is going to inherit only from the root parent.
+    html {
+        font-size: 16px;
+    }
+    1rem = 16px;
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /* 10px */
+}
+.clear {
+  clear: both;
+}
+h1 {
+  font-size: 2.8rem;
+}
+h2 {
+  font-size: 3.6rem;
+  padding: 5rem 0rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+button {
+  font-size: 1.8rem;
+}
+nav {
+  background: rgb(91, 91, 151);
+  color: white;
+  padding: 3rem;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav li {
+  float: left;
+  margin: 0rem 4rem;
+}
+.hero-section {
+  background-image: url("./img/food.png");
+  height: 80rem;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 15rem;
+  text-shadow: 1px 1px 2px white;
+}
+.hero-section button {
+  padding: 1rem 4rem;
+  margin-top: 4rem;
+  border: none;
+  background: rgb(91, 91, 151);
+  color: white;
+  cursor: pointer;
+}
+.form-section {
+  text-align: center;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2.4rem;
+}
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 50%;
+}
+form button {
+  margin-bottom: 10rem;
+  width: 50%;
+  background: rgb(130, 130, 170);
+  color: white;
+}
